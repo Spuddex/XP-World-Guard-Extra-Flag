@@ -1,0 +1,18 @@
+
+# XpGatekeep Configuration
+
+# Messages
+messages:
+  prefix: "&8[&aXpGatekeep&8] &r"
+  no-permission: "&cYou don't have permission to use this command."
+  region-blocked: "&cYou need at least &e%level% &cXP levels to enter this region."
+  command:
+    set-success: "&aSet XP requirement for region &e%region% &ato &e%level%&a."
+    remove-success: "&aRemoved XP requirement from region &e%region%&a."
+    info-region: "&aRegion &e%region% &arequires &e%level% &aXP levels."
+    info-no-requirement: "&aRegion &e%region% &ahas no XP requirement."
+    region-not-found: "&cRegion &e%region% &cnot found."
+
+# Settings
+settings:
+  check-interval-ticks: 5 # How often to check if players are in restricted regions (in ticks)

@@ -1,0 +1,20 @@
+
+name: XpGatekeep
+version: '${project.version}'
+main: Spuddex.XpGatekeep.XpGatekeepPlugin
+api-version: '1.20'
+depend: [WorldGuard]
+authors: [Spuddex]
+description: Adds XP level requirements to WorldGuard regions
+commands:
+  xpgatekeep:
+    description: Main command for XpGatekeep plugin
+    aliases: [xpgate, xpg]
+    permission: xpgatekeep.admin
+permissions:
+  xpgatekeep.admin:
+    description: Allows access to all XpGatekeep commands
+    default: op
+  xpgatekeep.bypass:
+    description: Allows bypassing XP level requirements
+    default: op
